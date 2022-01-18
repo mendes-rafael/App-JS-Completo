@@ -31,7 +31,7 @@ comecar.addEventListener('click', function(){
         if(segundoAtual <= 0){
             if(minutoAtual > 0){
                 minutoAtual--;
-                segundoAtual = 59;                
+                segundoAtual = 59;                             
             }else{
                 document.getElementById("sound").play();
                 clearInterval(interval);
